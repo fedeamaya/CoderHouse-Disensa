@@ -40,24 +40,28 @@ h3 {
     padding: 5px 70px;
     align-items: center;
     justify-content: center;
+    transition-property: all;
+    transition-duration: 0,9s;
+    transition-timing-function: ease-in-out;
+}
+.imguno:hover {
+    transform: scale(2);
 }
 .imgdos {
     padding: 5px 20px;
     align-items: center;
     justify-content: center;
+    transition-property: all;
+    transition-duration: 0,9s;
+    transition-timing-function: ease-in-out;
+}
+.imgdos:hover {
+    transform: scale(2);
 }
 .pie-pagina {
     background-color: #dde203;
     text-align: center;
     font-size: 20px;
-}
-.imglogo {
-    transition-property: all;
-    transition-duration: 0,9s;
-    transition-timing-function: ease-in-out;
-}
-.imglogo:hover {
-    transform: scale(2);
 }
 .infocontactos {
     padding: 40px;
@@ -99,4 +103,54 @@ h3 {
 .texto-donde-estamos2 {
     padding: 40px;
     font-size: 40px;
+}
+.accordion {
+    padding: 40px;
+}
+.titulomarcas {
+    padding: 40px;
+    font-size: 40px;
+}
+.tarjetas1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.tarjetas2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.adelca {
+    margin-right: 10px;
+}
+.unidas {
+    margin-right: 10px;
+}
+.novacero {
+    margin-right: 10px;
+}
+.hormipisos {
+    margin-right: 10px;
+}
+.aga {
+    margin-right: 10px;
+}
+.stanley {
+    margin-right: 10px;
+}
+.sika {
+    margin-right: 10px;
+}
+.holcim {
+    margin-right: 10px;
+}
+.plastidor {
+    margin-right: 10px;
+}
+.card-text {
+    font-size: 20px;
 }
