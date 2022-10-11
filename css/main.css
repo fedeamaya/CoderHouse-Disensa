@@ -215,11 +215,24 @@ h3 {
         padding: 20px;
         margin: 20px;
     }
+    .imguno {
+        padding: 5px 70px;
+        align-items: center;
+        justify-content: center;
+    }
+    .imgdos {
+        padding: 5px 20px;
+        align-items: center;
+        justify-content: center;
+    }
     .pie-pagina {
         display: grid;
         text-align: center;
         font-size: 20px;
         justify-content: center;
+    }
+    .infocontactos {
+        font-size: 30px;
     }
     .tarjetas1 {
         display: flex;
