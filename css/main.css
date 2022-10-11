@@ -14,6 +14,8 @@ body {
 .tituloh1 {
     padding: 40px;
     font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Rubik', sans-serif;
 }
 p {
     font-size: 30px;
@@ -29,6 +31,7 @@ h3 {
     padding: 30px;
     font-size: 30px;
     text-decoration: underline;
+    font-family: 'Rubik', sans-serif;
 }
 .img-intro {
     grid-area: img-intro;
@@ -40,23 +43,19 @@ h3 {
     padding: 5px 70px;
     align-items: center;
     justify-content: center;
-    transition-property: all;
-    transition-duration: 0,9s;
-    transition-timing-function: ease-in-out;
+    transition: all .2s ease-in-out;
 }
 .imguno:hover {
-    transform: scale(2);
+    transform: scale(1.6);
 }
 .imgdos {
     padding: 5px 20px;
     align-items: center;
     justify-content: center;
-    transition-property: all;
-    transition-duration: 0,9s;
-    transition-timing-function: ease-in-out;
+    transition: all .2s ease-in-out;
 }
 .imgdos:hover {
-    transform: scale(2);
+    transform: scale(1.6);
 }
 .pie-pagina {
     background-color: #dde203;
@@ -66,6 +65,8 @@ h3 {
 .infocontactos {
     padding: 40px;
     font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Rubik', sans-serif;
 }
 .redes {
     display: flex;
@@ -73,6 +74,10 @@ h3 {
     justify-content: space-around;
     padding: 10%;
     font-size: 30px;
+}
+.numerostel {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: underline;
 }
 .list-group {
     padding: 20%;
@@ -110,6 +115,8 @@ h3 {
 .titulomarcas {
     padding: 40px;
     font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Rubik', sans-serif;
 }
 .tarjetas1 {
     display: flex;
@@ -203,6 +210,11 @@ h3 {
         justify-content: center;
         font-size: 20px;
     }
+    p {
+        font-size: 20px;
+        padding: 20px;
+        margin: 20px;
+    }
     .pie-pagina {
         display: grid;
         text-align: center;
@@ -212,7 +224,6 @@ h3 {
     .tarjetas1 {
         display: flex;
         align-items: baseline;
-        margin-bottom: 20px;
         padding-right: 40px;
         justify-content: center;
         flex-direction: row-reverse;
@@ -220,7 +231,6 @@ h3 {
     .tarjetas2 {
         display: flex;
         align-items: baseline;
-        margin-bottom: 20px;
         padding-right: 40px;
         justify-content: center;
        flex-direction: row-reverse;
