@@ -83,6 +83,12 @@ h3 {
     padding: 20%;
     font-size: 20px;
 }
+.comentarios {
+    padding: 5%;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-bottom: 45px;
+}
 .texto-nosotros-uno {
     padding: 40px;
     font-size: 40px;
@@ -233,6 +239,12 @@ h3 {
     }
     .infocontactos {
         font-size: 30px;
+    }
+    .comentarios {
+        padding: 4%;
+        font-size: 15px;
+        margin-left: 45px;
+        margin-bottom: 45px;
     }
     .tarjetas1 {
         display: flex;
