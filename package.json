@@ -1,7 +1,7 @@
 {
   "name": "federicoamaya-disensa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repositorio de la pre-entrega del trabajo final",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,3 +23,4 @@
     "nodemon": "^2.0.20"
   }
 }
+  

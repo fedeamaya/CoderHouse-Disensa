@@ -1,0 +1,192 @@
+body {
+    background: #dde203;
+    background: linear-gradient(0deg, #dde203 0%, #f8472f 100%);
+}
+.navbar {
+    background-color: #f8472f !important;
+    padding: 2px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: initial;
+    margin-right: 20px;
+}
+.imguno {
+    padding: 5px 70px;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.6);
+    }
+}
+.imgdos {
+    padding: 5px 20px;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.6);
+    }
+}
+
+$paddingtexto: 40px;
+$fontsizetexto: 40px;
+
+
+.texto-nosotros-uno {
+    padding: $paddingtexto;
+    font-size: $fontsizetexto;
+}
+.texto-nosotros-dos {
+    padding: $paddingtexto;
+    font-size: $fontsizetexto;
+}
+.texto-nosotros-tres {
+    padding: $paddingtexto;
+    font-size: $fontsizetexto;
+}
+.texto-donde-estamos1 {
+    padding: $paddingtexto;
+    font-size: $fontsizetexto;
+}
+.texto-donde-estamos2 {
+    padding: $paddingtexto;
+    font-size: $fontsizetexto;
+}
+
+$margintarjetas: 10px;
+
+.adelca {
+    margin-right: $margintarjetas;
+}
+.unidas {
+    margin-right: $margintarjetas;
+}
+.novacero {
+    margin-right: $margintarjetas;
+}
+.hormipisos {
+    margin-right: $margintarjetas;
+}
+.aga {
+    margin-right: $margintarjetas;
+}
+.stanley {
+    margin-right: $margintarjetas;
+}
+.sika {
+    margin-right: $margintarjetas;
+}
+.holcim {
+    margin-right: $margintarjetas;
+}
+.plastidor {
+    margin-right: $margintarjetas;
+}
+
+.accordion {
+    padding: $paddingtexto;
+}
+.titulomarcas {
+    padding: $paddingtexto;
+    font-size: $fontsizetexto;
+    text-decoration: underline;
+    font-family: 'Rubik', sans-serif;
+}
+.tituloh1 {
+    padding: $paddingtexto;
+    font-size: $fontsizetexto;
+    text-decoration: underline;
+    font-family: 'Rubik', sans-serif;
+}
+@mixin img-intro-flex-column-center{
+    grid-area: img-intro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.img-intro {
+    @include img-intro-flex-column-center;
+}
+@mixin block-auto-auto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.imgprincipal {
+    @include block-auto-auto;
+}
+
+$fontsizecard: 20px;
+.card-text {
+    font-size: $fontsizecard;
+}
+
+.infocontactos {
+    padding: $paddingtexto;
+    font-size: $fontsizetexto;
+    text-decoration: underline;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+$paddingh3: 30px;
+$fontsizeh3: 30px;
+$textdecoh3: underline;
+$fontfamilyh3: 'Rubik', sans-serif;
+
+
+h3 {
+    padding: $paddingh3;
+    font-size: $fontsizeh3;
+    text-decoration: $textdecoh3;
+    font-family: $fontfamilyh3;
+}
+
+$fontsizep: 30px;
+$paddingp: 30px;
+$marginp: 30px;
+
+p {
+    font-size: $fontsizep;
+    padding: $paddingp;
+    margin: $marginp;
+}
+
+$colorpiepagina: #dde203;
+$textpiepagina: center;
+$fontsizepiepagina: 20px;
+
+.pie-pagina {
+    background-color: $colorpiepagina;
+    text-align: $textpiepagina;
+    font-size: $fontsizepiepagina;
+}
+
+
+.numerostel {
+    font-family: $fontfamilyh3;
+    text-decoration: $textdecoh3;
+}
+
+
+$displayredes: flex;
+$flex-direcredes: row;
+$justiredes: space-around;
+$paddingredes: 10%;
+$fontsizeredes: 30px;
+
+
+.redes {
+    display: $displayredes;
+    flex-direction: $flex-direcredes;
+    justify-content: $justiredes;
+    padding: $paddingredes;
+    font-size: $fontsizeredes;
+}
