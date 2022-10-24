@@ -190,3 +190,202 @@ $fontsizeredes: 30px;
     padding: $paddingredes;
     font-size: $fontsizeredes;
 }
+
+.list-group {
+    padding: 20%;
+    font-size: 20px;
+}
+.comentarios {
+    padding: 5%;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-bottom: 45px;
+}
+.carousel-inner {
+    width: 50% !important;
+    @include block-auto-auto
+    }
+
+@mixin flex-row-center-flex-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+
+
+.tarjetas1 {
+    @include flex-row-center-flex-start;
+    margin-bottom: 20px;
+}
+.tarjetas2 {
+    @include flex-row-center-flex-start
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    @mixin center-center{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imguno {
+        padding: 5px 250px;
+        @include center-center
+    }
+    .imgdos {
+        padding: 5px 200px;
+        @include center-center
+      }
+    
+      
+    .redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 60px;
+      }
+
+    @mixin flex-row-reverse-center-wrap-space-between-space-evenly{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-evenly
+    }
+
+
+
+      .tarjetas1 {
+        margin-bottom: 20px;
+        padding-right: 40px;
+        @include flex-row-reverse-center-wrap-space-between-space-evenly
+      }
+      .tarjetas2 {
+        margin-bottom: 20px;
+        padding-right: 40px;
+        @include flex-row-reverse-center-wrap-space-between-space-evenly
+       
+      }
+}
+
+@media screen and (max-width: 425px) {
+
+    @mixin flex-column-center-center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        @include flex-column-center-center;
+        font-size: 20px;
+    }
+
+
+    $fontsizep425:20px;
+    $paddingp425:20px;
+    $marginp425:20px;
+
+    p {
+        font-size: $fontsizep425;
+        padding: $paddingp425;
+        margin: $marginp425;
+    }
+
+    $paddingimg: 5px 70px;
+    @mixin center-center{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imguno {
+        padding: $paddingimg;
+        @include center-center
+    }
+    .imgdos {
+        padding: $paddingimg;
+        @include center-center
+    }
+
+    .pie-pagina {
+        display: grid;
+        text-align: center;
+        font-size: 20px;
+        justify-content: center;
+    }
+
+    .infocontactos {
+        font-size: $fontsizeredes;
+    }
+
+    $paddingcoment:4%;
+    $fontsizecoment:15px;
+    $marginleftcoment:45px;
+    $marginbottomcoment:45px;
+
+    .comentarios {
+        padding: $paddingcoment;
+        font-size: $fontsizecoment;
+        margin-left: $marginleftcoment;
+        margin-bottom: $marginbottomcoment;
+    }
+
+
+@mixin flex-baseline-center-row-reverse{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.tarjetas1 {
+    padding-right: 40px;
+   @include flex-baseline-center-row-reverse
+  }
+.tarjetas2 {
+    padding-right: 40px;
+    @include flex-baseline-center-row-reverse
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+}
