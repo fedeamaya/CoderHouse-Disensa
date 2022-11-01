@@ -29,15 +29,21 @@ body {
 
 .texto-nosotros-uno {
   padding: 40px;
-  font-size: 40px; }
+  font-size: 40px;
+  border-style: dotted;
+  border-color: #dde203; }
 
 .texto-nosotros-dos {
   padding: 40px;
-  font-size: 40px; }
+  font-size: 40px;
+  border-style: dotted;
+  border-color: #dde203; }
 
 .texto-nosotros-tres {
   padding: 40px;
-  font-size: 40px; }
+  font-size: 40px;
+  border-style: dotted;
+  border-color: #dde203; }
 
 .texto-donde-estamos1 {
   padding: 40px;
@@ -98,6 +104,12 @@ body {
 .imgprincipal {
   display: block;
   margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px; }
+
+.imgprincipal2 {
+  display: block;
+  margin-left: auto;
   margin-right: auto; }
 
 .card-text {
@@ -137,14 +149,17 @@ p {
   font-size: 30px; }
 
 .list-group {
-  padding: 20%;
+  padding-top: 10%;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 20px; }
 
 .comentarios {
   padding: 5%;
   font-size: 20px;
   margin-left: 45px;
-  margin-bottom: 45px; }
+  margin-bottom: 45px;
+  display: flex; }
 
 .carousel-inner {
   width: 50% !important;
@@ -164,6 +179,41 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start; }
+
+.googlemaps {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.botonesredes {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.buttons {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px; }
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #dde203;
+  color: #000000;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all .4s ease-in-out; }
+
+.buttons a:hover {
+  transform: scale(1.2); }
 
 @media screen and (max-width: 768px) {
   .imguno {

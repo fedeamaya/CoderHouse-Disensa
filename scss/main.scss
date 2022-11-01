@@ -39,14 +39,20 @@ $fontsizetexto: 40px;
 .texto-nosotros-uno {
     padding: $paddingtexto;
     font-size: $fontsizetexto;
+    border-style:dotted;
+    border-color: #dde203;
 }
 .texto-nosotros-dos {
     padding: $paddingtexto;
     font-size: $fontsizetexto;
+    border-style: dotted;
+    border-color: #dde203;
 }
 .texto-nosotros-tres {
     padding: $paddingtexto;
     font-size: $fontsizetexto;
+    border-style: dotted;
+    border-color: #dde203;
 }
 .texto-donde-estamos1 {
     padding: $paddingtexto;
@@ -120,6 +126,10 @@ $margintarjetas: 10px;
 }
 .imgprincipal {
     @include block-auto-auto;
+    padding-bottom: 40px;
+}
+.imgprincipal2 {
+    @include block-auto-auto;
 }
 
 $fontsizecard: 20px;
@@ -192,7 +202,9 @@ $fontsizeredes: 30px;
 }
 
 .list-group {
-    padding: 20%;
+    padding-top: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 20px;
 }
 .comentarios {
@@ -200,6 +212,7 @@ $fontsizeredes: 30px;
     font-size: 20px;
     margin-left: 45px;
     margin-bottom: 45px;
+    display: flex;
 }
 .carousel-inner {
     width: 50% !important;
@@ -223,6 +236,43 @@ $fontsizeredes: 30px;
 .tarjetas2 {
     @include flex-row-center-flex-start
 }
+
+.googlemaps {
+    @include block-auto-auto;
+
+}
+
+.botonesredes {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #dde203;
+    color: #000000;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out
+}
+.buttons a:hover {
+    transform: scale(1.2);
+}
+
 
 
 
