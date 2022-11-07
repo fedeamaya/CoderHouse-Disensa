@@ -407,6 +407,34 @@ $fontsizeredes: 30px;
     padding-right: 40px;
     @include flex-baseline-center-row-reverse
 }
+.imgprincipal2 {
+    width: 400px;
+    height: 400px;
+}
+.buttons {
+    min-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #dde203;
+    color: #000000;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out
+}
+.comentarios {
+    padding: 3%;
+    margin: auto;
+    font-size: 13px;
+}
 
 
 
